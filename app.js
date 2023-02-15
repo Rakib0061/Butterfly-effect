@@ -186,7 +186,7 @@ for(let i=0; i < mqls.length; i++){
             function anime(){
             t ++;
 
-                posX = 170 + (Math.sin(t / 100 *3* Math.PI * 1/10) * 150);
+                posX = 150 + (Math.sin(t / 100 *3* Math.PI * 1/10) * 110);
                 posY = Math.sin(t / 5 * Math.PI / 1/3.9) * 30;
 
                 item.style.left = posX +"px";
