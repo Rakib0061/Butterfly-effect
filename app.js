@@ -130,7 +130,7 @@ for(let i=0; i < mqls.length; i++){
             function anime(){
             t ++;
 
-                posX = 650 + (Math.sin(t / 100 *3* Math.PI * 1/10) * 70);
+                posX = 360 + (Math.sin(t / 100 *3* Math.PI * 1/10) * 290);
                 posY = Math.sin(t / 5 * Math.PI / 1/3.9) * 30;
 
                 item.style.left = posX +"px";
