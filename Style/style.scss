@@ -32,6 +32,18 @@
             border-radius: 100%;
         }
 
+        .navbar-toggler {
+            padding: 3px 6px;
+            border: 0;
+            background-color: #62889a;
+
+            &:focus {
+                box-shadow: 2px 3px 6px 1px #f37059c4;
+            }
+
+        }
+
+
         .nav-item {
             padding: 0 5px 0;
             transition: all 0.3s ease-in-out;
@@ -64,7 +76,8 @@
 
         h1 {
             font-weight: $semi-bold;
-            background: linear-gradient(#fff,#000);
+            font-size: $h1;
+            background: linear-gradient(#f05033, #ffffff);
             padding: 0 0 15px;
             -webkit-text-fill-color: transparent;
             -webkit-background-clip: text;
@@ -72,7 +85,7 @@
         
         p {
             font-weight: 500;
-            font-size: 16px;
+            font-size: $p;
             color: $secendry-color;
         }
 
@@ -110,17 +123,20 @@
 
             .title {
               font-weight: $semi-bold;
+              font-size: $h1;
               padding: 0 0 15px;
-              background: linear-gradient(#fff,#000);
+              background: linear-gradient(#f05033, #ffffff);
               -webkit-text-fill-color: transparent;
               -webkit-background-clip: text;
               
             }
 
             .typeWrite {
+                font-weight: $semi-bold;
+                font-size: $h1;
                 position: relative;
                 padding: 0 0 15px;
-                background: linear-gradient(#fff,#000);
+                background: linear-gradient(#f05033, #ffffff);
                 -webkit-text-fill-color: transparent;
                 -webkit-background-clip: text;
 
@@ -130,8 +146,8 @@
                     width: 2px;
                     height: 44px;
                     bottom: 15px;
-                    background-color: $secendry-color;
-                    -webkit-animation: blinking alternate infinite 0.3s ease;
+                    background: #fff;
+                    background: linear-gradient(#f05033, #ffffff);
                     animation: blinking alternate infinite 0.5s cubic-bezier(0.26, -0.6, 0, 1.47);
                 }
 
@@ -150,7 +166,7 @@
 
         p {
             font-weight: 500;
-            font-size: 16px;
+            font-size: $p;
             color: $secendry-color;
         }
 
@@ -177,4 +193,5 @@
 }
 
 //                                                                  Secend secton                                           
+
 
