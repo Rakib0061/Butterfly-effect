@@ -15,6 +15,14 @@
   box-shadow: 0px 0px 18px -1px rgba(255, 255, 255, 0.8117647059);
   border-radius: 100%;
 }
+.first .navbar .navbar-toggler {
+  padding: 3px 6px;
+  border: 0;
+  background-color: #62889a;
+}
+.first .navbar .navbar-toggler:focus {
+  box-shadow: 2px 3px 6px 1px rgba(243, 112, 89, 0.768627451);
+}
 .first .navbar .nav-item {
   padding: 0 5px 0;
   transition: all 0.3s ease-in-out;
@@ -40,7 +48,8 @@
 }
 .first .hero_area h1 {
   font-weight: 600;
-  background: linear-gradient(#fff, #000);
+  font-size: 40px;
+  background: linear-gradient(#f05033, #ffffff);
   padding: 0 0 15px;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -69,15 +78,18 @@
 }
 .secend .title_part_left .blinkng_text .title {
   font-weight: 600;
+  font-size: 40px;
   padding: 0 0 15px;
-  background: linear-gradient(#fff, #000);
+  background: linear-gradient(#f05033, #ffffff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 .secend .title_part_left .blinkng_text .typeWrite {
+  font-weight: 600;
+  font-size: 40px;
   position: relative;
   padding: 0 0 15px;
-  background: linear-gradient(#fff, #000);
+  background: linear-gradient(#f05033, #ffffff);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -87,7 +99,8 @@
   width: 2px;
   height: 44px;
   bottom: 15px;
-  background-color: rgba(255, 255, 255, 0.8117647059);
+  background: #fff;
+  background: linear-gradient(#f05033, #ffffff);
   animation: blinking alternate infinite 0.5s cubic-bezier(0.26, -0.6, 0, 1.47);
 }
 @keyframes blinking {

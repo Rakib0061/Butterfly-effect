@@ -6,10 +6,68 @@
  /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) { 
 
+  .secend {
+    padding: 100px 0 50px;
+  }
+
+  .first .hero_area h1 {
+    font-weight: 700;
+    font-size: 34px;
+  }
+
+  .first .hero_area p {
+    font-size: 15px;
+  }
+
+  .secend .title_part_left .blinkng_text .title {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .secend .title_part_left .blinkng_text .typeWrite {
+    font-size: 34px;
+    font-weight: 700;
+  }
+
+  .secend .title_part_left p {
+    font-size: 15px;
+}
+
+
 }
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
+
+  .first .navbar .nav-link {
+    font-size: 15px;
+  }
+  
+  .first .hero_area h1 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .first .hero_area p {
+    text-align: center;
+  }
+
+  .secend {
+    text-align: center;
+  }
+
+  .secend .title_part_left .blinkng_text {
+    justify-content: center;
+  }
+
+  .secend .title_part_left p {
+    margin-bottom: 25px;
+  }
+
+  .secend .title_part_left button {
+    margin-bottom: 30px;
+}
 
 }
 
@@ -17,11 +75,42 @@
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
 
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: auto;
+  }
+
+  .first .navbar .nav-link {
+    padding: 10px;
+  }
+
 }
  
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
+
+  .first .navbar .navbar-toggler {
+    padding: 1px;
+  }
+
+  .first .hero_area {
+    padding-top: 70px;
+  }
+
+  .first .hero_area p {
+    font-size: 14px;
+  }
+
+  .secend {
+    padding: 70px 0 50px;
+  }
+
+  .secend .title_part_left p {
+    font-size: 14px;
+  }
 
 }
 
